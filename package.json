@@ -1,23 +1,31 @@
 {
-  "name": "osvit-practice-project",
-  "version": "1.0.0",
-  "description": "First practice project",
-  "main": "index.html",
-  "scripts": {
-    "start": "browser-sync start --server --files '*.css, *.html, *.js'"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sebastijandumancic/osvit-practice-project.git"
-  },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/sebastijandumancic/osvit-practice-project/issues"
-  },
-  "homepage": "https://github.com/sebastijandumancic/osvit-practice-project#readme",
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "browser-sync": "^2.26.3",
-    "react-router-dom": "^5.0.0"
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
